@@ -1,38 +1,38 @@
-# Proyecto: Análisis exploratorio y predictivo en el Data Set del Titanic. 
+# Project: Exploratory and predictive analysis in the Titanic Data Set.
  
-* Primero vamos a abordar las variables relevantes para clasificar la supervivencia de un pasajero en el Titanic. En seguida se hará un pre-procesamiento que se dividirá en:  
+* First we will address the relevant variables to classify the survival of a passenger on the Titanic. Then a pre-processing will be done that will be divided into:
  
-    * Análisis descriptivo. 
-    * Outliers. 
-    * Nuevas variables. 
-    * Selección de variables, para el entrenamiento de nuestros modelos. 
+     * Descriptive analysis.
+     * Outliers.
+     * New variables.
+     * Selection of variables, for the training of our models.
+     
+ >_**Note:**_ In this readme only the results will be shown, for more details see the code in the code folder of this repo.
  
- >_**Nota:**_ En este readme sólo se mostrarán los resultados, para más detalles ver el código el la carpeta code de este repo.
- 
-De los pos pasos anteriores, mostraremos cómo están correlacionadas entre sí, ya para pasar al modelamiento: 
+From the previous post steps, we will show how they are correlated with each other, and to move on to modeling:
  
 ![1](https://user-images.githubusercontent.com/63415652/103332391-5bdc1380-4a2f-11eb-8dce-d5a2c0df0fcf.PNG)
  
->**_Conclusión_** Aquí podemos observar que el valor más bajo de la correlación es para los valores más oscuros y el más alto para los más bajos. 
+>**_Conclusion:_** Here we can see that the lowest value of the correlation is for the darkest values and the highest for the lowest.
  
 ---
  
-Ahora ya que se realizó en análisis exploratorio, pasaremos al **análisis predictivo.** 
+Now since it was done in exploratory analysis, we will move on to **predictive analysis.**
  
-Para este caso usaremos 2 modelos para medir la precisión de cada uno, nos enfrentamos con un problema de clasificación , así que usaremos regresión logística y árboles de decisiones. 
+For this case we will use 2 models to measure the precision of each one, we are faced with a classification problem, so we will use logistic regression and decision trees.
  
-El objetivo de esta clasificación es determinar el numero de supervivientes y para ello usaremos todos las demás variables restantes como edad, el numero de parientes, su sexo, etc. 
+The objective of this classification is to determine the number of survivors and for this we will use all the other remaining variables such as age, the number of relatives, their sex, etc.
  
-Ahora veremos cúal es el mejor modelo para predecir nuestra clasificación: 
+Now we will see which is the best model to predict our classification:
  
 ![2](https://user-images.githubusercontent.com/63415652/103333099-46b4b400-4a32-11eb-9ee3-a2385ef86ffd.PNG)
+
+And the model that gained in precision was logistic regression.
  
-Y el modelo que ganó en precisión fue la regresión logística. 
- 
-Y para finalizar, unas relaciones de las variables con que realizó la producción: 
+And finally, some relationships of the variables with which he made the production:
  
 ![3](https://user-images.githubusercontent.com/63415652/103333392-76b08700-4a33-11eb-8bb6-da4a7c239bbd.PNG)
 ![4](https://user-images.githubusercontent.com/63415652/103333394-77491d80-4a33-11eb-9b39-d6214c2be378.PNG)
 ![5](https://user-images.githubusercontent.com/63415652/103333395-77e1b400-4a33-11eb-8794-c44b7ea06e7d.PNG)
  
->**_Conclusión:_** En donde se puede notar una diferencia abismal es en el sexo, ya que en su momento para abordar los botes de emergencia priorizaban mucho “mujeres y niños”, la mayoría de los hombres, y sobre todo de la tercera clase, fueron dejados en el Titanic hasta su hundimiento.  
+>**_Conclusion:_** Where you can notice an abysmal difference is in sex, since at the time to board the emergency boats they prioritized a lot "women and children", most of the men, and especially of the third class, were left on the Titanic until its sinking.
