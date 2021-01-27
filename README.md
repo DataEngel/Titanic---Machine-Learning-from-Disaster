@@ -24,15 +24,17 @@ For this case we will use 2 models to measure the precision of each one, we are 
 The objective of this classification is to determine the number of survivors and for this we will use all the other remaining variables such as age, the number of relatives, their sex, etc.
  
 Now we will see which is the best model to predict our classification:
- 
-![2](https://user-images.githubusercontent.com/63415652/103333099-46b4b400-4a32-11eb-9ee3-a2385ef86ffd.PNG)
+
+![6](https://user-images.githubusercontent.com/63415652/105923992-00d41700-6003-11eb-9a40-ae4d830bef16.PNG)
 
 And the model that gained in precision was logistic regression.
  
 And finally, some relationships of the variables with which he made the production:
  
-![3](https://user-images.githubusercontent.com/63415652/103333392-76b08700-4a33-11eb-8bb6-da4a7c239bbd.PNG)
-![4](https://user-images.githubusercontent.com/63415652/103333394-77491d80-4a33-11eb-9b39-d6214c2be378.PNG)
-![5](https://user-images.githubusercontent.com/63415652/103333395-77e1b400-4a33-11eb-8794-c44b7ea06e7d.PNG)
+
+![9](https://user-images.githubusercontent.com/63415652/105924018-0f223300-6003-11eb-8e88-5024a47d6b6c.PNG)
+![7](https://user-images.githubusercontent.com/63415652/105924007-09c4e880-6003-11eb-8567-f77c635cf0b2.PNG)
+![8](https://user-images.githubusercontent.com/63415652/105924010-0c274280-6003-11eb-92df-ff171fe4b3a8.PNG)
+
  
 >**_Conclusion:_** Where you can notice an abysmal difference is in sex, since at the time to board the emergency boats they prioritized a lot "women and children", most of the men, and especially of the third class, were left on the Titanic until its sinking.
